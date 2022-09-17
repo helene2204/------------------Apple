@@ -1,0 +1,39 @@
+.goods{
+  padding: 40px 0;
+}
+
+.goods_tagline{
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.goods_title{
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 29px;
+  text-align: center;
+} 
+
+.goods_helper{
+  position: relative;
+} 
+.goods_arrow{
+  position: absolute;
+  top: 115px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/left.svg);
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+} 
+
+.goods_arrow_prev{
+  left:-5px;
+}
+
+.goods_arrow_next{
+  right:-5px;
+  transform: rotate(180deg);
+}
