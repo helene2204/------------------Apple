@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProApple - товары Apple</title>
-    <link rel="icon" href="/img/icon.svg" type="image/svg+xml" />
-
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script src="scripts/index.js" type="module"></script>
   </head>
   <body>
     <header class="header">
@@ -75,9 +77,9 @@
           <p class="goods_tagline">Вы ждали этого</p>
           <h2 class="goods_title">Все продукты новой линейки</h2>
           <div class="goods_helper">
-            <div class="goods_block">
-              <ul class="goods_list">
-                <li class="goods_item">
+            <div class="goods_block swiper">
+              <ul class="goods_list swiper-wrapper">
+                <li class="goods_item swiper-slide">
                   <artical class="goods_product product">
                     <div class="product_image-wrapper">
                       <img
@@ -88,7 +90,6 @@
                         height="200"
                       />
                     </div>
-
                     <div class="product_info">
                       <h3 class="product_title">iPhone 14 PRO</h3>
                       <p class="product_price">$1050</p>
@@ -96,7 +97,8 @@
                     <button class="product_more">Узнать больше</button>
                   </artical>
                 </li>
-                <li class="goods_item">
+
+                <li class="goods_item swiper-slide">
                   <artical class="goods_product product">
                     <div class="product_image-wrapper">
                       <img
@@ -115,7 +117,8 @@
                     <button class="product_more">Узнать больше</button>
                   </artical>
                 </li>
-                <li class="goods_item">
+
+                <li class="goods_item swiper-slide">
                   <artical class="goods_product product">
                     <div class="product_image-wrapper">
                       <img
@@ -135,7 +138,7 @@
                   </artical>
                 </li>
 
-                <li class="goods_item">
+                <li class="goods_item swiper-slide">
                   <artical class="goods_product product">
                     <div class="product_image-wrapper">
                       <img
@@ -155,7 +158,7 @@
                   </artical>
                 </li>
 
-                <li class="goods_item">
+                <li class="goods_item swiper-slide">
                   <artical class="goods_product product">
                     <div class="product_image-wrapper">
                       <img
@@ -175,9 +178,9 @@
                   </artical>
                 </li>
               </ul>
-              <button class="goods_arrow goods_arrow_prev"></button>
-              <button class="goods_arrow goods_arrow_next"></button>
             </div>
+            <button class="goods_arrow goods_arrow_prev"></button>
+            <button class="goods_arrow goods_arrow_next"></button>
           </div>
         </div>
       </section>
