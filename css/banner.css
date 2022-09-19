@@ -49,6 +49,7 @@
   .banner {
       padding: 120px 0 160px;
       background-image: url(../img/banner_laptop.jpg);
+      margin-bottom: 70px;
     }
 
   .banner_content{
